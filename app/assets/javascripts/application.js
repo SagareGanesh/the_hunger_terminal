@@ -21,6 +21,7 @@
 //= require jquery.countdown.min.js
 //= require materialize
 //= require web_push_notification
+//= require serviceworker
 
   $(document).on('turbolinks:load',function(){
     $('#fromDate, #toDate').datepicker({
